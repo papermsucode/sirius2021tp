@@ -104,14 +104,14 @@ if __name__=='__main__':
     CNN_Model = Predictor( CNN_encoder(), pass_interactor(), MLP_Forecaster(fc2_size=2*NUM_OF_PREDS) ).cuda()
 
     optimizer = optim.SGD(CNN_Model.parameters(), lr=0.1, momentum=0.9, weight_decay=5e-4)
-    scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[8,14], gamma=0.1)
+    scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[5,10], gamma=0.1)
 
     running_loss = 0.
     best_val = 100
 
     print('Start of training')
 
-    for epoch in range(18):
+    for epoch in range(15):
         CNN_Model.train()
 
         t_data = 0
