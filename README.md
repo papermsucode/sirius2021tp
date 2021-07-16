@@ -1,2 +1,1 @@
-# sirius2021tp
-Trajectory Prediction for Sirius 2021
+This is a support repository for the Trajectory Prediction challenge of Sirius-2021 Summer School.
