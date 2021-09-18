@@ -1,4 +1,4 @@
-## Trajectory prediction task (Aleksandr Petiushko, Huawei)
+## Trajectory prediction task in Sochi Sirius 2021 (Aleksandr Petiushko, Huawei)
 
 ### Overview
 * [Trajectory Prediction challenge of Sirius-2021 Summer School](https://eval.ai/web/challenges/challenge-page/1194/overview) by Stepan Komkov, Huawei
